@@ -11,7 +11,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   selector: 'app-root',
   imports: [RouterOutlet,
     CommonModule,
-    HttpHeaders,
     Header,
     Button,
     Tasks,
