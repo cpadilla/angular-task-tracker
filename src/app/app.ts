@@ -6,11 +6,13 @@ import { Header } from './components/header/header';
 import { Button } from './components/button/button';
 import { Tasks } from './components/tasks/tasks';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet,
     CommonModule,
+    FormsModule,
     Header,
     Button,
     Tasks,
